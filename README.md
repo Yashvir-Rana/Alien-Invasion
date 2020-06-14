@@ -8,3 +8,5 @@ and down the screen. the player shoots and destoys the aliens. if if the player
 shoots all the aliens, a new fleet appears that moves faster than the previous 
 fllet. if any alien hits the players ship or reaches the bottom of the screen,
  the player loses a ship if the player loses three ships, the game ends.
+
+![ship](ship.bmp)
