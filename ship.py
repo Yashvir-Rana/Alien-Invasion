@@ -24,7 +24,7 @@ class Ship():
         if self.moving_right:
             self.rect.centerx +=1
         if self.moving_left:
-            self.rect.centerx +=1
+            self.rect.centerx -=1
             
     def blitme(self):
         """draw the ship at its current location"""

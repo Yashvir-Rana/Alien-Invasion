@@ -3,7 +3,7 @@ import sys
 import pygame
 
 def check_events(ship):
-    """respond to keypress and mouse events"""
+    """respond to keypress and mouse events for both left and right"""
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             sys.exit()
