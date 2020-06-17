@@ -24,7 +24,7 @@ class Ship():
         self.moving_left = False
 
     def update (self):
-        """update the ships position based on the movement flags"""
+        """update the ships position based on the movement flags."""
         # update the ships center value, not the rect.
         if self.moving_right:
             self.center += self.ai_settings.ship_speed_factor
@@ -33,6 +33,7 @@ class Ship():
         
         #update rect object from self.center.
         self.rect.centerx = self.center
+
     def blitme(self):
         """draw the ship at its current location"""
         self.screen.blit(self.image, self.rect)
